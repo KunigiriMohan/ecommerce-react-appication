@@ -2,8 +2,8 @@ import { event } from "jquery";
 import React,{useState} from "react";
 
 let Login = () => { 
-    var[email,setEmail] = useState("abc@gmail.com");
-    var[password,setPassword] = useState("password");
+    var[email,setEmail] = useState("");
+    var[password,setPassword] = useState("");
 
     return (
         <div className="row">
